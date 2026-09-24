@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #222;
+}
+
+p {
+    color: #555;
+}
+
+button {
+    padding: 12px 20px;
+
+    border: none;
+    border-radius: 6px;
+
+    background: #6f2dbd;
+    color: white;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
